@@ -21,12 +21,12 @@ public Rigidbody rb;
 	void Update () 
 	{
 
-	if (Input.GetKey(KeyCode.UpArrow))
+	if (Input.GetKey(KeyCode.DownArrow))
 	{
 		rb.AddRelativeForce(Vector3.forward * speed * 4);
 	}
 
-	if (Input.GetKey(KeyCode.DownArrow))
+	if (Input.GetKey(KeyCode.UpArrow))
 	{
 		rb.AddRelativeForce(Vector3.back * speed * 4);
 	}
